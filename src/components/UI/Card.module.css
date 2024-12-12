@@ -1,0 +1,13 @@
+.cardShadow {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border: none;
+    border-radius: 30px;
+}
+
+.cardGFTitle {
+    font-family: "New Amsterdam", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+}

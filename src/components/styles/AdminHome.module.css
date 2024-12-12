@@ -1,0 +1,50 @@
+/* src/styles/AdminHome.module.css */
+.welcomeCard {
+    background-color: #f0f8ff;
+    /* Light blue background for welcome card */
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.buttonGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+.actionButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.actionButton:hover {
+    background-color: #0056b3;
+}
+
+.logoutSection {
+    margin-top: 20px;
+}
+
+.logoutButton {
+    padding: 15px 30px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.logoutButton:hover {
+    background-color: #c82333;
+}
